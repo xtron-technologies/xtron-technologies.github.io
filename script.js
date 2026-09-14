@@ -110,25 +110,25 @@ const vehicles = [
 ];
 
 const microItems = [
-  { category: "e-bike", name: "E-Bike 01", desc: "Urban commuter", render: "images/vehicles/e-bikes/ebike-01.png", blueprint: "images/vehicles/e-bike/blueprints/ebike-01-blueprint.png" },
+  { category: "e-bike", name: "E-Bike 01", desc: "Urban commuter", render: "images/vehicles/e-bikes/ebike-01.png", blueprint: "images/vehicles/e-bikes/blueprints/ebike-01-blueprint.png" },
   { category: "e-bike", name: "E-Bike 02", desc: "Performance commuter", render: "images/vehicles/e-bikes/ebike-02.png", blueprint: "images/vehicles/e-bikes/blueprints/ebike-02-blueprint.png" },
   { category: "e-bike", name: "E-Bike 03", desc: "Adventure platform", render: "images/vehicles/e-bikes/ebike-03.png", blueprint: "images/vehicles/e-bikes/blueprints/ebike-03-blueprint.png" },
   { category: "e-bike", name: "E-Bike 04", desc: "Compact urban", render: "images/vehicles/e-bikes/ebike-04.png", blueprint: "images/vehicles/e-bikes/blueprints/ebike-04-blueprint.png" },
 
-  { category: "e-kart", name: "E-Kart 01", desc: "Electric test platform", render: "images/vehicles/kart/ekart-01.png", blueprint: "images/vehicles/e-kart/blueprints/ekart-01-blueprint.png" },
-  { category: "e-kart", name: "E-Kart 02", desc: "Track focused", render: "images/vehicles/kart/ekart-02.png", blueprint: "images/vehicles/e-kart/blueprints/ekart-02-blueprint.png" },
-  { category: "e-kart", name: "E-Kart 03", desc: "All-terrain kart", render: "images/vehicles/kart/ekart-03.png", blueprint: "images/vehicles/e-kart/blueprints/ekart-03-blueprint.png" },
-  { category: "e-kart", name: "E-Kart 04", desc: "Premium smart kart", render: "images/vehicles/kart/ekart-04.png", blueprint: "images/vehicles/e-kart/blueprints/ekart-04-blueprint.png" },
+  { category: "e-kart", name: "E-Kart 01", desc: "Electric test platform", render: "images/vehicles/kart/ekart-01.png", blueprint: "images/vehicles/kart/blueprints/ekart-01-blueprint.png" },
+  { category: "e-kart", name: "E-Kart 02", desc: "Track focused", render: "images/vehicles/kart/ekart-02.png", blueprint: "images/vehicles/kart/blueprints/ekart-02-blueprint.png" },
+  { category: "e-kart", name: "E-Kart 03", desc: "All-terrain kart", render: "images/vehicles/kart/ekart-03.png", blueprint: "images/vehicles/kart/blueprints/ekart-03-blueprint.png" },
+  { category: "e-kart", name: "E-Kart 04", desc: "Premium smart kart", render: "images/vehicles/kart/ekart-04.png", blueprint: "images/vehicles/kart/blueprints/ekart-04-blueprint.png" },
 
   { category: "e-scooter", name: "E-Scooter 01", desc: "Flagship commuter", render: "images/vehicles/scooters/escooter-01.png", blueprint: "images/vehicles/scooters/blueprints/escooter-01-blueprint.png" },
   { category: "e-scooter", name: "E-Scooter 02", desc: "Compact commuter", render: "images/vehicles/scooters/escooter-02.png", blueprint: "images/vehicles/scooters/blueprints/escooter-02-blueprint.png" },
   { category: "e-scooter", name: "E-Scooter 03", desc: "All-terrain scooter", render: "images/vehicles/scooters/escooter-03.png", blueprint: "images/vehicles/scooters/blueprints/escooter-03-blueprint.png" },
   { category: "e-scooter", name: "E-Scooter 04", desc: "Performance scooter", render: "images/vehicles/scooters/escooter-04.png", blueprint: "images/vehicles/scooters/blueprints/escooter-04-blueprint.png" },
 
-  { category: "e-skateboard", name: "E-Skateboard 01", desc: "Electric longboard", render: "images/vehicles/skateboard/eskateboard-01.png", blueprint: "images/vehicles/e-skateboard/blueprints/eskateboard-01-blueprint.png" },
-  { category: "e-skateboard", name: "E-Skateboard 02", desc: "Urban commuter board", render: "images/vehicles/skateboard/eskateboard-02.png", blueprint: "images/vehicles/e-skateboard/blueprints/eskateboard-02-blueprint.png" },
-  { category: "e-skateboard", name: "E-Skateboard 03", desc: "All-terrain board", render: "images/vehicles/skateboard/eskateboard-03.png", blueprint: "images/vehicles/e-skateboard/blueprints/eskateboard-03-blueprint.png" },
-  { category: "e-skateboard", name: "E-Skateboard 04", desc: "Compact cruiser", render: "images/vehicles/skateboard/eskateboard-04.png", blueprint: "images/vehicles/e-skateboard/blueprints/eskateboard-04-blueprint.png" }
+  { category: "e-skateboard", name: "E-Skateboard 01", desc: "Electric longboard", render: "images/vehicles/skateboard/eskateboard-01.png", blueprint: "images/vehicles/skateboard/blueprints/eskateboard-01-blueprint.png" },
+  { category: "e-skateboard", name: "E-Skateboard 02", desc: "Urban commuter board", render: "images/vehicles/skateboard/eskateboard-02.png", blueprint: "images/vehicles/skateboard/blueprints/eskateboard-02-blueprint.png" },
+  { category: "e-skateboard", name: "E-Skateboard 03", desc: "All-terrain board", render: "images/vehicles/skateboard/eskateboard-03.png", blueprint: "images/vehicles/skateboard/blueprints/eskateboard-03-blueprint.png" },
+  { category: "e-skateboard", name: "E-Skateboard 04", desc: "Compact cruiser", render: "images/vehicles/skateboard/eskateboard-04.png", blueprint: "images/vehicles/skateboard/blueprints/eskateboard-04-blueprint.png" }
 ];
 
 function imageFrame(path, title, extra = "") {
