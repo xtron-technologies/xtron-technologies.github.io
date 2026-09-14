@@ -120,10 +120,10 @@ const microItems = [
   { category: "e-kart", name: "E-Kart 03", desc: "All-terrain kart", render: "images/vehicles/kart/ekart-03.png", blueprint: "images/vehicles/e-kart/blueprints/ekart-03-blueprint.png" },
   { category: "e-kart", name: "E-Kart 04", desc: "Premium smart kart", render: "images/vehicles/kart/ekart-04.png", blueprint: "images/vehicles/e-kart/blueprints/ekart-04-blueprint.png" },
 
-  { category: "e-scooter", name: "E-Scooter 01", desc: "Flagship commuter", render: "images/vehicles/scooters/escooter-01.png", blueprint: "images/vehicles/e-scooter/blueprints/escooter-01-blueprint.png" },
-  { category: "e-scooter", name: "E-Scooter 02", desc: "Compact commuter", render: "images/vehicles/scooters/escooter-02.png", blueprint: "images/vehicles/e-scooter/blueprints/escooter-02-blueprint.png" },
-  { category: "e-scooter", name: "E-Scooter 03", desc: "All-terrain scooter", render: "images/vehicles/scooters/escooter-03.png", blueprint: "images/vehicles/e-scooter/blueprints/escooter-03-blueprint.png" },
-  { category: "e-scooter", name: "E-Scooter 04", desc: "Performance scooter", render: "images/vehicles/scooters/escooter-04.png", blueprint: "images/vehicles/e-scooter/blueprints/escooter-04-blueprint.png" },
+  { category: "e-scooter", name: "E-Scooter 01", desc: "Flagship commuter", render: "images/vehicles/scooters/escooter-01.png", blueprint: "images/vehicles/scooters/blueprints/escooter-01-blueprint.png" },
+  { category: "e-scooter", name: "E-Scooter 02", desc: "Compact commuter", render: "images/vehicles/scooters/escooter-02.png", blueprint: "images/vehicles/scooters/blueprints/escooter-02-blueprint.png" },
+  { category: "e-scooter", name: "E-Scooter 03", desc: "All-terrain scooter", render: "images/vehicles/scooters/escooter-03.png", blueprint: "images/vehicles/scooters/blueprints/escooter-03-blueprint.png" },
+  { category: "e-scooter", name: "E-Scooter 04", desc: "Performance scooter", render: "images/vehicles/scooters/escooter-04.png", blueprint: "images/vehicles/scooters/blueprints/escooter-04-blueprint.png" },
 
   { category: "e-skateboard", name: "E-Skateboard 01", desc: "Electric longboard", render: "images/vehicles/skateboard/eskateboard-01.png", blueprint: "images/vehicles/e-skateboard/blueprints/eskateboard-01-blueprint.png" },
   { category: "e-skateboard", name: "E-Skateboard 02", desc: "Urban commuter board", render: "images/vehicles/skateboard/eskateboard-02.png", blueprint: "images/vehicles/e-skateboard/blueprints/eskateboard-02-blueprint.png" },
@@ -203,13 +203,13 @@ function renderMicro(category = "e-bike") {
 
 const archiveAssets = [
   ...vehicles.flatMap(v => [
-    { title: `${v.fullName} — Exterior`, type: "Exterior", path: v.render },
-    { title: `${v.fullName} — Blueprint`, type: "Blueprint", path: v.blueprint },
-    { title: `${v.fullName} — Interior`, type: "Interior", path: v.interior }
+    { title: `${v.fullName} | Exterior`, type: "Exterior", path: v.render },
+    { title: `${v.fullName} | Blueprint`, type: "Blueprint", path: v.blueprint },
+    { title: `${v.fullName} | Interior`, type: "Interior", path: v.interior }
   ]),
   ...microItems.flatMap(item => [
-    { title: `${item.name} — Render`, type: "Render", path: item.render },
-    { title: `${item.name} — Blueprint`, type: "Blueprint", path: item.blueprint }
+    { title: `${item.name} | Render`, type: "Render", path: item.render },
+    { title: `${item.name} | Blueprint`, type: "Blueprint", path: item.blueprint }
   ])
 ];
 
