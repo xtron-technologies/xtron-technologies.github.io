@@ -1,0 +1,17 @@
+{
+  "id": "terra",
+  "name": "TERRA",
+  "fullName": "XTron Terra",
+  "subtitle": "Electric SUV",
+  "category": "Road / SUV",
+  "description": "A premium electric SUV balancing clean geometric surfacing, everyday usability and restrained off-road confidence.",
+  "render": "images/vehicles/cars/terra.png",
+  "blueprint": "images/vehicles/cars/blueprints/terra-blueprint.png",
+  "interior": "images/vehicles/cars/interior/terra-interior.png",
+  "specs": [
+    ["TYPE", "Electric SUV"],
+    ["LAYOUT", "Dual-Motor AWD"],
+    ["ROLE", "Flagship Utility"],
+    ["STATUS", "Concept"]
+  ]
+}

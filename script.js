@@ -6,9 +6,9 @@ const vehicles = [
     subtitle: "Electric SUV",
     category: "Road / SUV",
     description: "A premium electric SUV balancing clean geometric surfacing, everyday usability and restrained off-road confidence.",
-    render: "images/xtron-terra.png",
-    blueprint: "images/xtron-terra-blueprint.png",
-    interior: "images/xtron-terra-interior.png",
+    render: "images/vehicles/cars/terra.png",
+    blueprint: "images/vehicles/cars/blueprints/terra-blueprint.png",
+    interior: "images/vehicles/cars/interior/terra-interior.png",
     specs: [["TYPE", "Electric SUV"], ["LAYOUT", "Dual-Motor AWD"], ["ROLE", "Flagship Utility"], ["STATUS", "Concept"]]
   },
   {
@@ -19,8 +19,8 @@ const vehicles = [
     category: "Road / Coupe",
     description: "A low, driver-focused coupe with crisp surfacing, controlled smoothness and a more intimate interpretation of XTron’s cockpit language.",
     render: "images/vehicles/cars/verge.png",
-    blueprint: "images/xtron-verge-blueprint.png",
-    interior: "images/xtron-verge-interior.png",
+    blueprint: "images/vehicles/cars/blueprints/verge-blueprint.png",
+    interior: "images/vehicles/cars/interior/verge-interior.png",
     specs: [["TYPE", "Electric Coupe"], ["LAYOUT", "Dual-Motor AWD"], ["ROLE", "Sport Road Car"], ["STATUS", "Concept"]]
   },
   {
@@ -31,8 +31,8 @@ const vehicles = [
     category: "Utility / Off-Road",
     description: "The most rugged XTron platform, built around expedition capability, durable hardware and off-road-focused interaction.",
     render: "images/vehicles/cars/atlas.png",
-    blueprint: "images/vehicles/cars/atlas-blueprint.png",
-    interior: "images/vehicles/cars/atlas-interior.png",
+    blueprint: "images/vehicles/cars/blueprints/atlas-blueprint.png",
+    interior: "images/vehicles/cars/interior/atlas-interior.png",
     specs: [["TYPE", "Expedition SUV"], ["LAYOUT", "Electric AWD"], ["ROLE", "Adventure"], ["STATUS", "Concept"]]
   },
   {
@@ -43,8 +43,8 @@ const vehicles = [
     category: "Performance / GT",
     description: "A long-distance performance car with a richer cabin, broad stance and a more luxurious interpretation of the XTron design system.",
     render: "images/vehicles/cars/pulse-gt.png",
-    blueprint: "images/vehicles/cars/pulse-gt-blueprint.png",
-    interior: "images/vehicles/cars/pulse-gt-interior.png",
+    blueprint: "images/vehicles/cars/blueprints/pulse-gt-blueprint.png",
+    interior: "images/vehicles/cars/interior/pulse-gt-interior.png",
     specs: [["TYPE", "Grand Tourer"], ["LAYOUT", "Performance AWD"], ["ROLE", "Fast Touring"], ["STATUS", "Concept"]]
   },
   {
@@ -55,8 +55,8 @@ const vehicles = [
     category: "Performance / Track",
     description: "A dedicated electric track platform focused on aero, telemetry, weight reduction and an uncompromised motorsport cockpit.",
     render: "images/vehicles/cars/apex.png",
-    blueprint: "images/vehicles/cars/apex-blueprint.png",
-    interior: "images/vehicles/cars/apex-interior.png",
+    blueprint: "images/vehicles/cars/blueprints/apex-blueprint.png",
+    interior: "images/vehicles/cars/interior/apex-interior.png",
     specs: [["TYPE", "Track Car"], ["LAYOUT", "Performance EV"], ["ROLE", "Circuit"], ["STATUS", "Concept"]]
   },
   {
@@ -67,8 +67,8 @@ const vehicles = [
     category: "Road / Sedan",
     description: "A calm executive EV with long-wheelbase proportions, restrained lighting and a clean high-tech cabin built for everyday use.",
     render: "images/vehicles/cars/axis.png",
-    blueprint: "images/vehicles/cars/axis-blueprint.png",
-    interior: "images/vehicles/cars/axis-interior.png",
+    blueprint: "images/vehicles/cars/blueprints/axis-blueprint.png",
+    interior: "images/vehicles/cars/interior/axis-interior.png",
     specs: [["TYPE", "Executive Sedan"], ["LAYOUT", "Electric AWD"], ["ROLE", "Daily Premium"], ["STATUS", "Concept"]]
   },
   {
@@ -79,8 +79,8 @@ const vehicles = [
     category: "Road / Cabriolet",
     description: "An open-top 2+2 concept that keeps the XTron family language while introducing a lighter, more emotional and lifestyle-focused character.",
     render: "images/vehicles/cars/aero.png",
-    blueprint: "images/vehicles/cars/aero-blueprint.png",
-    interior: "images/vehicles/cars/aero-interior.png",
+    blueprint: "images/vehicles/cars/blueprints/aero-blueprint.png",
+    interior: "images/vehicles/cars/interior/aero-interior.png",
     specs: [["TYPE", "Cabriolet"], ["LAYOUT", "Electric RWD/AWD"], ["ROLE", "Open-Air Touring"], ["STATUS", "Concept"]]
   },
   {
@@ -91,8 +91,8 @@ const vehicles = [
     category: "Family / MPV",
     description: "A spacious electric people mover using the same technical language in a softer, calmer package focused on families and flexible space.",
     render: "images/vehicles/cars/flow.png",
-    blueprint: "images/vehicles/cars/flow-blueprint.png",
-    interior: "images/vehicles/cars/flow-interior.png",
+    blueprint: "images/vehicles/cars/blueprints/flow-blueprint.png",
+    interior: "images/vehicles/cars/interior/flow-interior.png",
     specs: [["TYPE", "Electric MPV"], ["LAYOUT", "EV Platform"], ["ROLE", "Family / People"], ["STATUS", "Concept"]]
   },
   {
@@ -103,32 +103,32 @@ const vehicles = [
     category: "Utility / Pickup",
     description: "A South African-minded electric double cab focused on utility, storage, durability and a more tactile version of the XTron cabin.",
     render: "images/vehicles/cars/trail.png",
-    blueprint: "images/vehicles/cars/trail-blueprint.png",
-    interior: "images/vehicles/cars/trail-interior.png",
+    blueprint: "images/vehicles/cars/blueprints/trail-blueprint.png",
+    interior: "images/vehicles/cars/interior/trail-interior.png",
     specs: [["TYPE", "Electric Bakkie"], ["LAYOUT", "Electric AWD"], ["ROLE", "Utility / Lifestyle"], ["STATUS", "Concept"]]
   }
 ];
 
 const microItems = [
-  { category: "e-bike", name: "E-Bike 01", desc: "Urban commuter", render: "images/vehicles/e-bike/ebike-01.png", blueprint: "images/vehicles/e-bike/ebike-01-blueprint.png" },
-  { category: "e-bike", name: "E-Bike 02", desc: "Performance commuter", render: "images/vehicles/e-bike/ebike-02.png", blueprint: "images/vehicles/e-bike/ebike-02-blueprint.png" },
-  { category: "e-bike", name: "E-Bike 03", desc: "Adventure platform", render: "images/vehicles/e-bike/ebike-03.png", blueprint: "images/vehicles/e-bike/ebike-03-blueprint.png" },
-  { category: "e-bike", name: "E-Bike 04", desc: "Compact urban", render: "images/vehicles/e-bike/ebike-04.png", blueprint: "images/vehicles/e-bike/ebike-04-blueprint.png" },
+  { category: "e-bike", name: "E-Bike 01", desc: "Urban commuter", render: "images/vehicles/e-bikes/ebike-01.png", blueprint: "images/vehicles/e-bike/blueprints/ebike-01-blueprint.png" },
+  { category: "e-bike", name: "E-Bike 02", desc: "Performance commuter", render: "images/vehicles/e-bikes/ebike-02.png", blueprint: "images/vehicles/e-bikes/blueprints/ebike-02-blueprint.png" },
+  { category: "e-bike", name: "E-Bike 03", desc: "Adventure platform", render: "images/vehicles/e-bikes/ebike-03.png", blueprint: "images/vehicles/e-bikes/blueprints/ebike-03-blueprint.png" },
+  { category: "e-bike", name: "E-Bike 04", desc: "Compact urban", render: "images/vehicles/e-bikes/ebike-04.png", blueprint: "images/vehicles/e-bikes/blueprints/ebike-04-blueprint.png" },
 
-  { category: "e-kart", name: "E-Kart 01", desc: "Electric test platform", render: "images/vehicles/e-kart/ekart-01.png", blueprint: "images/vehicles/e-kart/ekart-01-blueprint.png" },
-  { category: "e-kart", name: "E-Kart 02", desc: "Track focused", render: "images/vehicles/e-kart/ekart-02.png", blueprint: "images/vehicles/e-kart/ekart-02-blueprint.png" },
-  { category: "e-kart", name: "E-Kart 03", desc: "All-terrain kart", render: "images/vehicles/e-kart/ekart-03.png", blueprint: "images/vehicles/e-kart/ekart-03-blueprint.png" },
-  { category: "e-kart", name: "E-Kart 04", desc: "Premium smart kart", render: "images/vehicles/e-kart/ekart-04.png", blueprint: "images/vehicles/e-kart/ekart-04-blueprint.png" },
+  { category: "e-kart", name: "E-Kart 01", desc: "Electric test platform", render: "images/vehicles/kart/ekart-01.png", blueprint: "images/vehicles/e-kart/blueprints/ekart-01-blueprint.png" },
+  { category: "e-kart", name: "E-Kart 02", desc: "Track focused", render: "images/vehicles/kart/ekart-02.png", blueprint: "images/vehicles/e-kart/blueprints/ekart-02-blueprint.png" },
+  { category: "e-kart", name: "E-Kart 03", desc: "All-terrain kart", render: "images/vehicles/kart/ekart-03.png", blueprint: "images/vehicles/e-kart/blueprints/ekart-03-blueprint.png" },
+  { category: "e-kart", name: "E-Kart 04", desc: "Premium smart kart", render: "images/vehicles/kart/ekart-04.png", blueprint: "images/vehicles/e-kart/blueprints/ekart-04-blueprint.png" },
 
-  { category: "e-scooter", name: "E-Scooter 01", desc: "Flagship commuter", render: "images/vehicles/e-scooter/escooter-01.png", blueprint: "images/vehicles/e-scooter/escooter-01-blueprint.png" },
-  { category: "e-scooter", name: "E-Scooter 02", desc: "Compact commuter", render: "images/vehicles/e-scooter/escooter-02.png", blueprint: "images/vehicles/e-scooter/escooter-02-blueprint.png" },
-  { category: "e-scooter", name: "E-Scooter 03", desc: "All-terrain scooter", render: "images/vehicles/e-scooter/escooter-03.png", blueprint: "images/vehicles/e-scooter/escooter-03-blueprint.png" },
-  { category: "e-scooter", name: "E-Scooter 04", desc: "Performance scooter", render: "images/vehicles/e-scooter/escooter-04.png", blueprint: "images/vehicles/e-scooter/escooter-04-blueprint.png" },
+  { category: "e-scooter", name: "E-Scooter 01", desc: "Flagship commuter", render: "images/vehicles/scooters/escooter-01.png", blueprint: "images/vehicles/e-scooter/blueprints/escooter-01-blueprint.png" },
+  { category: "e-scooter", name: "E-Scooter 02", desc: "Compact commuter", render: "images/vehicles/scooters/escooter-02.png", blueprint: "images/vehicles/e-scooter/blueprints/escooter-02-blueprint.png" },
+  { category: "e-scooter", name: "E-Scooter 03", desc: "All-terrain scooter", render: "images/vehicles/scooters/escooter-03.png", blueprint: "images/vehicles/e-scooter/blueprints/escooter-03-blueprint.png" },
+  { category: "e-scooter", name: "E-Scooter 04", desc: "Performance scooter", render: "images/vehicles/scooters/escooter-04.png", blueprint: "images/vehicles/e-scooter/blueprints/escooter-04-blueprint.png" },
 
-  { category: "e-skateboard", name: "E-Skateboard 01", desc: "Electric longboard", render: "images/vehicles/e-skateboard/eskateboard-01.png", blueprint: "images/vehicles/e-skateboard/eskateboard-01-blueprint.png" },
-  { category: "e-skateboard", name: "E-Skateboard 02", desc: "Urban commuter board", render: "images/vehicles/e-skateboard/eskateboard-02.png", blueprint: "images/vehicles/e-skateboard/eskateboard-02-blueprint.png" },
-  { category: "e-skateboard", name: "E-Skateboard 03", desc: "All-terrain board", render: "images/vehicles/e-skateboard/eskateboard-03.png", blueprint: "images/vehicles/e-skateboard/eskateboard-03-blueprint.png" },
-  { category: "e-skateboard", name: "E-Skateboard 04", desc: "Compact cruiser", render: "images/vehicles/e-skateboard/eskateboard-04.png", blueprint: "images/vehicles/e-skateboard/eskateboard-04-blueprint.png" }
+  { category: "e-skateboard", name: "E-Skateboard 01", desc: "Electric longboard", render: "images/vehicles/skateboard/eskateboard-01.png", blueprint: "images/vehicles/e-skateboard/blueprints/eskateboard-01-blueprint.png" },
+  { category: "e-skateboard", name: "E-Skateboard 02", desc: "Urban commuter board", render: "images/vehicles/skateboard/eskateboard-02.png", blueprint: "images/vehicles/e-skateboard/blueprints/eskateboard-02-blueprint.png" },
+  { category: "e-skateboard", name: "E-Skateboard 03", desc: "All-terrain board", render: "images/vehicles/skateboard/eskateboard-03.png", blueprint: "images/vehicles/e-skateboard/blueprints/eskateboard-03-blueprint.png" },
+  { category: "e-skateboard", name: "E-Skateboard 04", desc: "Compact cruiser", render: "images/vehicles/skateboard/eskateboard-04.png", blueprint: "images/vehicles/e-skateboard/blueprints/eskateboard-04-blueprint.png" }
 ];
 
 function imageFrame(path, title, extra = "") {
