@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="XTron Technologies concept mobility archive." />
+  <title>XTron Technologies | Mobility Concepts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="XTron Technologies home">
+      <span class="brand-mark">X</span>
+      <span class="brand-copy">
+        <strong>XTRON</strong>
+        <small>TECHNOLOGIES</small>
+      </span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#vehicles">Vehicles</a>
+      <a href="#micro">Micro Mobility</a>
+      <a href="#archive">Archive</a>
+      <a href="#principles">Design Language</a>
+    </nav>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">MENU</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-media image-frame" data-image="images/xtron-terra.png" data-title="XTron Terra">
+        <img src="images/xtron-terra.png" alt="XTron Terra concept SUV" />
+        <div class="placeholder">
+          <span>HERO IMAGE</span>
+          <code>images/xtron-terra.png</code>
+        </div>
+      </div>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-topline">
+        <span>ADAMX LABS / XTRON CONCEPTS</span>
+        <span>CONCEPT MOBILITY / 2026</span>
+      </div>
+
+      <div class="hero-content">
+        <p class="hero-index">01 / ELECTRIC SUV</p>
+        <h1>TERRA</h1>
+        <div class="hero-bottom">
+          <p>
+            A future-facing mobility family built around deliberate form,
+            useful technology and a recognizable XTron identity.
+          </p>
+          <a href="#vehicles" class="text-link">EXPLORE THE LINEUP <span>↘</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="principles" id="principles">
+      <div class="section-label">00 / DESIGN LANGUAGE</div>
+      <div class="principles-copy">
+        <h2>NOT SCI-FI.<br>JUST AHEAD.</h2>
+        <p>
+          XTron combines geometric form, controlled smoothness, restrained lighting,
+          tactile controls and practical electric architecture. The products should
+          feel advanced without becoming fantasy objects.
+        </p>
+      </div>
+
+      <div class="principle-grid">
+        <div>
+          <span>01</span>
+          <h3>GEOMETRIC FORM</h3>
+          <p>Strong silhouettes and defined surfaces instead of anonymous smoothness.</p>
+        </div>
+        <div>
+          <span>02</span>
+          <h3>TECHNICAL LIGHT</h3>
+          <p>Cyan signatures and X motifs used as identity, not decoration.</p>
+        </div>
+        <div>
+          <span>03</span>
+          <h3>TACTILE + DIGITAL</h3>
+          <p>Displays where useful. Physical control where confidence matters.</p>
+        </div>
+        <div>
+          <span>04</span>
+          <h3>BUILDABLE FUTURE</h3>
+          <p>Concepts should still make sense as real products one day.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="vehicles" id="vehicles">
+      <div class="section-intro">
+        <div class="section-label">01 / VEHICLES</div>
+        <div>
+          <h2>THE ROAD<br>LINEUP.</h2>
+          <p>Nine vehicles. One family. Each with a distinct role and character.</p>
+        </div>
+      </div>
+
+      <div id="vehicleList" class="vehicle-list"></div>
+    </section>
+
+    <section class="micro" id="micro">
+      <div class="section-intro compact">
+        <div class="section-label">02 / MICRO MOBILITY</div>
+        <div>
+          <h2>THE SMALLER<br>PLATFORMS.</h2>
+          <p>Where the XTron engineering language can be tested, refined and made real first.</p>
+        </div>
+      </div>
+
+      <div class="micro-tabs" role="tablist" aria-label="Micro mobility categories">
+        <button class="micro-tab active" data-category="e-bike">E-BIKES</button>
+        <button class="micro-tab" data-category="e-kart">E-KARTS</button>
+        <button class="micro-tab" data-category="e-scooter">E-SCOOTERS</button>
+        <button class="micro-tab" data-category="e-skateboard">E-SKATEBOARDS</button>
+      </div>
+
+      <div id="microGrid" class="micro-grid"></div>
+    </section>
+
+    <section class="archive" id="archive">
+      <div class="archive-head">
+        <div class="section-label">03 / CONCEPT ARCHIVE</div>
+        <div>
+          <h2>RENDERS.<br>BLUEPRINTS.<br>INTERIORS.</h2>
+        </div>
+      </div>
+
+      <div class="archive-controls">
+        <label for="assetSearch">SEARCH ASSETS</label>
+        <input id="assetSearch" type="search" placeholder="Terra, blueprint, e-bike..." />
+        <span><strong id="assetCount">0</strong> ASSETS</span>
+      </div>
+
+      <div id="archiveGrid" class="archive-grid"></div>
+    </section>
+
+    <section class="statement">
+      <div class="statement-inner">
+        <span>XTRON TECHNOLOGIES</span>
+        <h2>BUILD THE FIRST THING THAT PROVES THE REST IS POSSIBLE.</h2>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>XTRON TECHNOLOGIES</strong>
+      <small>CONCEPT MOBILITY / ADAMX LABS</small>
+    </div>
+
+    <div class="footer-nav">
+      <a href="#top">TOP</a>
+      <a href="#vehicles">VEHICLES</a>
+      <a href="#micro">MICRO</a>
+      <a href="#archive">ARCHIVE</a>
+    </div>
+
+    <div class="footer-meta">© <span id="year"></span> XTRON</div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox">
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <div class="lightbox-media">
+      <img id="lightboxImage" alt="" />
+    </div>
+    <div class="lightbox-meta">
+      <span id="lightboxType"></span>
+      <h3 id="lightboxTitle"></h3>
+      <code id="lightboxPath"></code>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
